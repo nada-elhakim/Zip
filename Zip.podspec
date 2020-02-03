@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Zip"
-  s.version          = "1.1.0"
+  s.version          = "1.1.1"
   s.summary          = "Zip and unzip files in Swift."
   s.swift_version    = "4.2"
 
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :git => "https://github.com/marmelroy/Zip.git", :tag => s.version.to_s}
+  s.source           = { :git => "https://github.com/nada-elhakim/Zip.git", :tag => s.version.to_s}
   s.social_media_url   = "http://twitter.com/marmelroy"
 
   s.ios.deployment_target = '8.0'
